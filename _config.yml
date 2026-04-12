@@ -1,12 +1,17 @@
 title: "Pari Vermani"
 description: "Building AI-driven products for real-world decision-making and operational efficiency"
 
-minimal_mistakes_skin: "default"
-
 url: "https://parivermani.github.io"
 baseurl: ""
 
+remote_theme: mmistakes/minimal-mistakes
+
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
+
 author:
-name: "Pari Vermani"
+  name: "Pari Vermani"
 
 markdown: kramdown
