@@ -4,121 +4,152 @@
   <meta charset="UTF-8">
   <title>Pari Vermani</title>
 
-  <style>
-    body {
-      margin: 0;
-      background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
 
-    nav {
-      position: sticky;
-      top: 0;
-      background: rgba(255,255,255,0.8);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #eee;
-      z-index: 1000;
-    }
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-    .nav-container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 16px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
 
-    .nav-links {
-      display: flex;
-      gap: 24px;
-      font-size: 14px;
-    }
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
 
-    .nav-links a {
-      text-decoration: none;
-      color: #555;
-    }
+  /* NAVBAR */
+  nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+  }
 
-    .nav-links a:hover {
-      color: #5b21b6;
-    }
+  .nav-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.container {
-  width: 100%;
-  max-width: 1280px;
-  margin: 40px auto;
-  padding: 20px clamp(20px, 6vw, 80px);
-}
+  .nav-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #5b21b6;
+    font-size: 18px;
+  }
 
-    h1 {
-      font-size: 56px;
-      margin-bottom: 20px;
-      letter-spacing: -1px;
-      background: linear-gradient(90deg, #5b21b6, #8b5cf6);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+  .nav-links {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+  }
 
-    .description {
-      font-size: 16px;
-      line-height: 1.7;
-      color: #444;
-      margin-bottom: 40px;
-      max-width: 750px;
-    }
+  .nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
 
-    .section-title {
-      font-size: 16px;
-      margin-bottom: 16px;
-      letter-spacing: 1px;
-      color: #5b21b6;
-      text-transform: uppercase;
-    }
+  .nav-links a:hover {
+    color: #5b21b6;
+  }
 
-    .tiles {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
+  /* CONTENT */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+  }
 
-    .tile {
-      padding: 24px;
-      border: 1px solid #eee;
-      border-radius: 10px;
-      background: #ffffff;
-      transition: all 0.2s ease;
-    }
+  h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    background: linear-gradient(90deg, #5b21b6, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-    .tile:hover {
-      transform: translateY(-4px);
-      border-color: #c4b5fd;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.04);
-    }
+  .description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 40px;
+    max-width: 750px;
+  }
 
-    .tile h3 {
-      margin-bottom: 8px;
-      font-size: 18px;
-      font-weight: 600;
-    }
+  .section-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    color: #5b21b6;
+    text-transform: uppercase;
+  }
 
-    .tile p {
-      color: #555;
-      font-size: 14px;
-    }
+  .section-label {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9ca3af;
+    margin-bottom: 16px;
+  }
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
 
-    hr {
-      margin: 50px 0;
-      border: none;
-      border-top: 1px solid #eee;
-    }
-  </style>
+  .tile {
+    padding: 24px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #ffffff;
+    transition: all 0.2s ease;
+  }
+
+  .tile:hover {
+    transform: translateY(-4px);
+    border-color: #c4b5fd;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.04);
+  }
+
+  .tile h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .tile p {
+    color: #555;
+    font-size: 14px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  hr {
+    margin: 50px 0;
+    border: none;
+    border-top: 1px solid #eee;
+  }
+</style>
 </head>
 
 <body>
@@ -126,9 +157,7 @@
   <!-- NAVBAR -->
   <nav>
     <div class="nav-container">
-      <div style="font-weight: 600; color: #5b21b6;">
-        Pari Vermani
-      </div>
+      <div class="nav-name">Pari Vermani</div>
       <div class="nav-links">
         <a href="#">Home</a>
         <a href="#about">About</a>
@@ -141,81 +170,79 @@
 
   <!-- CONTENT -->
   <div class="container">
-<p style="
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #6b7280;
-  margin-bottom: 20px;
-">
-  Home
-</p>
-<p style="font-size: 24px; max-width: 900px;">
-  Designing AI-driven products that improve decision-making, streamline operations, and translate complex systems into actionable outcomes.
-</p>
 
-<p style="color: #5b21b6; margin-top: 10px;">
-  AI Systems • Product Thinking • Business Transformation
-</p>
+    <p class="section-label">Home</p>
 
-   <p class="description">
-  I focus on applying AI in practical, high-impact contexts — from rethinking operational workflows to enabling more structured, data-driven decision-making. My work sits at the intersection of product, strategy, and intelligent systems, with an emphasis on building solutions that are not just technically viable, but actually usable in real-world environments.
-</p>
+    <h1>Pari Vermani</h1>
+
+    <p style="font-size: 22px; max-width: 800px;">
+      Designing AI-driven products that improve decision-making, streamline operations, and translate complex systems into actionable outcomes.
+    </p>
+
+    <p style="color: #5b21b6; margin-top: 10px;">
+      AI Systems • Product Thinking • Business Transformation
+    </p>
+
+    <p class="description">
+      I focus on applying AI in practical, high-impact contexts — from rethinking operational workflows to enabling more structured, data-driven decision-making. My work sits at the intersection of product, strategy, and intelligent systems, with an emphasis on building solutions that are not just technically viable, but actually usable in real-world environments.
+    </p>
 
     <hr>
 
     <h2 id="about" class="section-title">About</h2>
 
-<p class="description">
-  My experience spans working with complex business processes, stakeholder-heavy environments, and evolving AI capabilities. I’ve been involved in translating ambiguous problem spaces into structured solutions — defining use cases, shaping system behavior, and ensuring alignment between technical possibilities and business needs.
+    <p class="description">
+      My experience spans working with complex business processes, stakeholder-heavy environments, and evolving AI capabilities. I’ve been involved in translating ambiguous problem spaces into structured solutions — defining use cases, shaping system behavior, and ensuring alignment between technical possibilities and business needs.
 
-  I’m particularly interested in how AI systems can augment human decision-making, improve visibility across processes, and create scalable, repeatable frameworks for execution.
-</p>
+      I’m particularly interested in how AI systems can augment human decision-making, improve visibility across processes, and create scalable, repeatable frameworks for execution.
+    </p>
 
-<div class="tiles">
+    <div class="tiles">
 
-  <a href="/projects">
-    <div class="tile">
-      <h3>Projects</h3>
-      <p>Selected work demonstrating how AI and product thinking can be applied to complex, real-world problem spaces.</p>
+      <a href="/projects">
+        <div class="tile">
+          <h3>Projects</h3>
+          <p>Selected work demonstrating how AI and product thinking can be applied to complex, real-world problem spaces.</p>
+        </div>
+      </a>
+
+      <a href="/writing">
+        <div class="tile">
+          <h3>Writing</h3>
+          <p>Perspectives on AI, product strategy, and the challenges of building usable systems in business environments.</p>
+        </div>
+      </a>
+
+      <a href="/research">
+        <div class="tile">
+          <h3>Research</h3>
+          <p>Structured explorations into AI systems, emerging capabilities, and frameworks for applying them effectively.</p>
+        </div>
+      </a>
+
+      <a href="/resume">
+        <div class="tile">
+          <h3>Resume</h3>
+          <p>Experience across AI, product, and strategy, with a focus on execution in real-world context.</p>
+        </div>
+      </a>
+
     </div>
-  </a>
-
-  <a href="/writing">
-    <div class="tile">
-      <h3>Writing</h3>
-      <p>Perspectives on AI, product strategy, and the challenges of building usable systems in business environments.</p>
-    </div>
-  </a>
-
-  <a href="/research">
-    <div class="tile">
-      <h3>Research</h3>
-      <p>Structured explorations into AI systems, emerging capabilities, and frameworks for applying them effectively.</p>
-    </div>
-  </a>
-
-  <a href="/resume">
-    <div class="tile">
-      <h3>Resume</h3>
-      <p>Experience across AI, product, and strategy, with a focus on execution in real-world context.</p>
-    </div>
-  </a>
-
-</div>
 
     <hr>
 
     <h2 id="contact" class="section-title">Contact</h2>
 
-<p class="description">
-Always happy to connect and exchange ideas on AI, product thinking, or interesting problems worth solving.
-</p>
+    <p class="description">
+      Feel free to reach out — always happy to chat about AI, product thinking, or interesting problems.
+    </p>
 
-<p style="font-size: 16px;">
-  <a href="https://www.linkedin.com/in/pari-vermani-98b672177" target="_blank" style="color:#5b21b6;">LinkedIn</a><br>
-  <a href="mailto:pari2000vermani@gmail.com" style="color:#5b21b6;">Email</a>
-</p>
+    <p style="font-size: 16px; line-height: 1.8;">
+      <a href="https://www.linkedin.com/in/pari-vermani-98b672177" target="_blank" style="color:#5b21b6;">LinkedIn</a><br>
+      <a href="mailto:pari2000vermani@gmail.com" style="color:#5b21b6;">Email</a><br>
+      <a href="https://github.com/parivermani" target="_blank" style="color:#5b21b6;">GitHub (projects & experiments)</a>
+    </p>
+
   </div>
 
 </body>
