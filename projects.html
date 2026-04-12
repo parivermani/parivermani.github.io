@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects | Pari Vermani</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* NAVBAR — EXACT COPY */
+  nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+  }
+
+  .nav-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px; /* 🔥 THIS WAS THE ISSUE */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-name {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #5b21b6;
+    font-size: 18px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 24px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+  }
+
+  .nav-links a:hover {
+    color: #5b21b6;
+  }
+
+  /* CONTENT — EXACT COPY */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px; /* 🔥 MATCHED */
+  }
+
+  .section-label {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9ca3af;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    color: #5b21b6;
+  }
+
+  .content {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    width: 100%;
+  }
+
+  .highlight {
+    margin-top: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-container">
+    <div class="nav-name">Pari Vermani</div>
+    <div class="nav-links">
+<a href="/">Home</a>
+<a href="/about">About</a>
+<a href="/projects">Projects</a>
+<a href="/writing">Writing</a>
+<a href="/Contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <p class="section-label">Projects</p>
+
+  <h1>Projects</h1>
+
+  <div class="content">
+    <p>
+      My work has largely involved solving complex, real-world problems at the intersection of business, operations, and technology. Much of this has been within consulting environments, where the focus is less on building standalone products and more on designing systems that actually work in practice.
+    </p>
+
+    <p>
+      Because of the nature of this work, I’m thoughtful about how I present it here. Rather than focusing only on outputs, this section will highlight how I approach problems — from structuring ambiguous requirements to shaping solutions that are both technically viable and operationally effective.
+    </p>
+
+    <div class="highlight">
+      <p>
+        I’m currently in the process of documenting selected work in a way that reflects both the thinking and execution behind it.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
