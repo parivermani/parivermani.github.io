@@ -1,78 +1,84 @@
 \---
 
-layout: home
+layout: single
+
+title: "Pari Vermani"
+
+author\_profile: false
 
 \---
 
 
 
-\# Pari Vermani
+<div style="max-width: 800px; margin: 80px auto; text-align: left;">
 
 
 
-Building AI-driven products for real-world decision-making and operational efficiency.
+&#x20; <h1 style="font-size: 48px; margin-bottom: 20px;">
+
+&#x20;   Pari Vermani
+
+&#x20; </h1>
 
 
 
-I explore how AI can transform business processes, improve decision-making, and create scalable, practical solutions.
+&#x20; <p style="font-size: 22px; line-height: 1.6; margin-bottom: 40px;">
+
+&#x20;   Building AI-driven products for real-world decision-making and operational efficiency.
+
+&#x20; </p>
 
 
 
-\---
+&#x20; <p style="font-size: 18px; line-height: 1.8; margin-bottom: 60px; color: #555;">
+
+&#x20;   I’m interested in how AI can be applied to solve meaningful business problems — from improving workflows and operational efficiency to enabling better decision-making through intelligent systems.
+
+&#x20; </p>
 
 
 
-\## Projects
+&#x20; <hr style="margin: 60px 0; border: none; border-top: 1px solid #eee;">
 
 
 
-\### AI-Powered PMO Intelligence System
+&#x20; <h2 style="font-size: 20px; margin-bottom: 20px; letter-spacing: 1px;">
 
-Designed a GenAI-enabled solution to improve governance, risk visibility, and decision-making by analyzing project data and identifying gaps in execution.
+&#x20;   About
 
-
-
-\### Digital Twin AI Platform
-
-Worked on the design and development of an AI-powered platform to simulate and reimagine business processes using intelligent agents and data-driven insights.
+&#x20; </h2>
 
 
 
-\---
+&#x20; <p style="font-size: 18px; line-height: 1.8; color: #555;">
+
+&#x20;   I work at the intersection of AI, product, and strategy, focusing on practical applications of AI in real-world contexts. My work has involved designing and contributing to systems that leverage data and machine learning to improve business processes and decision-making.
+
+&#x20; </p>
 
 
 
-\## Writing
+&#x20; <hr style="margin: 60px 0; border: none; border-top: 1px solid #eee;">
 
 
 
-\- Blog1
+&#x20; <h2 style="font-size: 20px; margin-bottom: 20px; letter-spacing: 1px;">
 
-\- Blog2
+&#x20;   Contact
 
-
-
-\---
+&#x20; </h2>
 
 
 
-\## About
+&#x20; <p style="font-size: 18px; color: #555;">
+
+&#x20;   LinkedIn<br>
+
+&#x20;   Email
+
+&#x20; </p>
 
 
 
-I work at the intersection of AI, product, and strategy, focusing on practical applications of AI to solve complex business problems.
-
-
-
-\---
-
-
-
-\## Contact
-
-
-
-LinkedIn:
-
-Email:
+</div>
 
