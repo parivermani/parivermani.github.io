@@ -15,7 +15,7 @@
     margin: 0;
     overflow-x: hidden;
     background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   h1, h2, h3 {
@@ -88,7 +88,8 @@
     line-height: 1.7;
     color: #444;
     margin-bottom: 40px;
-    max-width: 750px;
+    width: 100%;              /* FIXED */
+    max-width: 100%;          /* FIXED */
   }
 
   .section-title {
@@ -120,6 +121,10 @@
     border-radius: 10px;
     background: #ffffff;
     transition: all 0.2s ease;
+    display: flex;                 /* FIX */
+    flex-direction: column;        /* FIX */
+    justify-content: space-between;/* FIX */
+    height: 100%;                  /* FIX */
   }
 
   .tile:hover {
@@ -175,7 +180,7 @@
 
     <h1>Pari Vermani</h1>
 
-    <p style="font-size: 22px; max-width: 800px;">
+    <p style="font-size: 22px;">
       Designing AI-driven products that improve decision-making, streamline operations, and translate complex systems into actionable outcomes.
     </p>
 
