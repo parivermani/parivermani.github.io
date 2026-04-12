@@ -1,4 +1,20 @@
+\---
+
+layout: single
+
+\---
+
+
+
 <style>
+
+.page\_\_content {
+
+&#x20; max-width: 100% !important;
+
+&#x20; padding: 0 !important;
+
+}
 
 h1 {
 
