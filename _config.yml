@@ -1,4 +1,5 @@
-title: "Pari Vermani"
+logo: ""
+masthead_title: "Pari Vermani"
 description: "Building AI-driven products for real-world decision-making and operational efficiency"
 
 url: "https://parivermani.github.io"
@@ -24,7 +25,7 @@ header:
       url: /#about
     - title: "Projects"
       url: /projects
-    - title: "Blog"
-      url: /blog
+    - title: "Writing"
+      url: /writing
     - title: "Contact"
       url: /#contact

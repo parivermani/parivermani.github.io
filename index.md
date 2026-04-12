@@ -1,20 +1,36 @@
 <style>
 
+h1 {
+
+&#x20; letter-spacing: -1px;
+
+}
+
+
+
+.tile h3 {
+
+&#x20; font-weight: 600;
+
+}
+
 &#x20; body {
 
 &#x20;   background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
+
+&#x20;   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
 &#x20; }
 
 
 
-&#x20; .container {
+&#x20; .custom-container {
 
-&#x20;   max-width: 900px;
+&#x20;   max-width: 1000px;
 
-&#x20;   margin: 80px auto;
+&#x20;   margin: 60px auto;
 
-&#x20;   padding: 40px;
+&#x20;   padding: 20px;
 
 &#x20; }
 
@@ -24,7 +40,7 @@
 
 &#x20;   font-size: 48px;
 
-&#x20;   margin-bottom: 20px;
+&#x20;   margin-bottom: 16px;
 
 &#x20; }
 
@@ -32,11 +48,11 @@
 
 &#x20; .tagline {
 
-&#x20;   font-size: 22px;
+&#x20;   font-size: 20px;
 
 &#x20;   line-height: 1.6;
 
-&#x20;   margin-bottom: 40px;
+&#x20;   margin-bottom: 24px;
 
 &#x20; }
 
@@ -44,13 +60,15 @@
 
 &#x20; .description {
 
-&#x20;   font-size: 18px;
+&#x20;   font-size: 16px;
 
-&#x20;   line-height: 1.8;
+&#x20;   line-height: 1.7;
 
-&#x20;   color: #555;
+&#x20;   color: #444;
 
-&#x20;   margin-bottom: 60px;
+&#x20;   margin-bottom: 40px;
+
+&#x20;   max-width: 750px;
 
 &#x20; }
 
@@ -58,7 +76,7 @@
 
 &#x20; hr {
 
-&#x20;   margin: 60px 0;
+&#x20;   margin: 50px 0;
 
 &#x20;   border: none;
 
@@ -70,27 +88,27 @@
 
 &#x20; .section-title {
 
-&#x20;   font-size: 18px;
+&#x20;   font-size: 16px;
 
-&#x20;   margin-bottom: 20px;
+&#x20;   margin-bottom: 16px;
 
 &#x20;   letter-spacing: 1px;
 
-&#x20;   color: #6d28d9;
+&#x20;   color: #5b21b6;
+
+&#x20;   text-transform: uppercase;
 
 &#x20; }
 
-
-
-&#x20; .tiles {
+&#x20;  .tiles {
 
 &#x20;   display: grid;
 
-&#x20;   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+&#x20;   grid-template-columns: repeat(2, 1fr);
 
 &#x20;   gap: 20px;
 
-&#x20;   margin-top: 40px;
+&#x20;   margin-top: 30px;
 
 &#x20; }
 
@@ -98,11 +116,11 @@
 
 &#x20; .tile {
 
-&#x20;   padding: 30px;
+&#x20;   padding: 24px;
 
 &#x20;   border: 1px solid #eee;
 
-&#x20;   border-radius: 12px;
+&#x20;   border-radius: 10px;
 
 &#x20;   background: #ffffff;
 
@@ -114,9 +132,11 @@
 
 &#x20; .tile:hover {
 
-&#x20;   transform: translateY(-5px);
+&#x20;   transform: translateY(-4px);
 
-&#x20;   border-color: #d8b4fe;
+&#x20;   border-color: #c4b5fd;
+
+&#x20;   box-shadow: 0 10px 20px rgba(0,0,0,0.04);
 
 &#x20; }
 
@@ -124,7 +144,9 @@
 
 &#x20; .tile h3 {
 
-&#x20;   margin-bottom: 10px;
+&#x20;   margin-bottom: 8px;
+
+&#x20;   font-size: 18px;
 
 &#x20; }
 
@@ -132,25 +154,33 @@
 
 &#x20; .tile p {
 
-&#x20;   color: #666;
+&#x20;   color: #555;
+
+&#x20;   font-size: 14px;
 
 &#x20; }
 
+a {
+
+&#x20; text-decoration: none;
+
+&#x20; color: inherit;
+
+}
 
 
-&#x20; a {
 
-&#x20;   text-decoration: none;
+.tile {
 
-&#x20;   color: inherit;
+&#x20; cursor: pointer;
 
-&#x20; }
+}
 
 </style>
 
 
 
-<div class="container">
+<div class="custom-container">
 
 
 
@@ -166,7 +196,7 @@
 
 &#x20;     margin-bottom: 20px;
 
-&#x20;     background: linear-gradient(90deg, #7c3aed, #a78bfa);
+&#x20;     background: linear-gradient(90deg, #5b21b6, #8b5cf6);
 
 &#x20;     -webkit-background-clip: text;
 
@@ -196,7 +226,7 @@
 
 
 
-<p style="color: #6d28d9; font-size: 16px; margin-top: 10px;">
+<p style="color: #5b21b6; font-size: 16px; margin-top: 10px;">
 
 &#x20; AI Systems • Product Thinking • Business Transformation
 
