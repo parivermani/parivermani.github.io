@@ -44,10 +44,11 @@
       color: #5b21b6;
     }
 
-    .container {
-  max-width: 1000px;
-  margin: 30px auto;
-  padding: 20px;
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 40px auto;
+  padding: 20px clamp(20px, 6vw, 80px);
 }
 
     h1 {
@@ -140,8 +141,16 @@
 
   <!-- CONTENT -->
   <div class="container">
-
- <p style="font-size: 22px; max-width: 700px;">
+<p style="
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 20px;
+">
+  Home
+</p>
+<p style="font-size: 24px; max-width: 900px;">
   Designing AI-driven products that improve decision-making, streamline operations, and translate complex systems into actionable outcomes.
 </p>
 
