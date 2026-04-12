@@ -1,31 +1,4 @@
-logo: ""
-masthead_title: "Pari Vermani"
-description: "Building AI-driven products for real-world decision-making and operational efficiency"
-
+title: "Pari Vermani"
+description: "AI • Product • Strategy"
 url: "https://parivermani.github.io"
 baseurl: ""
-
-remote_theme: mmistakes/minimal-mistakes
-
-minimal_mistakes_skin: "default"
-
-plugins:
-  - jekyll-include-cache
-
-author:
-  name: "Pari Vermani"
-
-markdown: kramdown
-
-header:
-  nav:
-    - title: "Home"
-      url: /
-    - title: "About"
-      url: /#about
-    - title: "Projects"
-      url: /projects
-    - title: "Writing"
-      url: /writing
-    - title: "Contact"
-      url: /#contact
