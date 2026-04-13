@@ -17,6 +17,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
+
 }
 
 h1, h2, h3 {
@@ -95,7 +97,6 @@ nav {
   margin: 0 auto;
   padding: 40px 20px;
   flex: 1;
-background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 100%);
 }
 
 /* TYPOGRAPHY */
@@ -173,7 +174,7 @@ h1 {
 /* FOOTER */
 .footer {
   border-top: 1px solid #eee;
-  background: linear-gradient(90deg, #5b21b6, #8b5cf6);
+  background: #f5f3ff;
   padding: 20px;
   text-align: center;
 }
