@@ -169,6 +169,40 @@ h1 {
   color: #555;
   font-size: 14px;
 }
+/* FOOTER */
+.footer {
+  border-top: 1px solid #eee;
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #5b21b6;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
 /* MISC */
 hr {
