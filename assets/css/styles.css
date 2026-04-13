@@ -172,20 +172,15 @@ h1 {
 /* FOOTER */
 .footer {
   border-top: 1px solid #eee;
-  background: #ffffff;
-  padding: 40px 20px;
-}
-
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  background: linear-gradient(90deg, #5b21b6, #8b5cf6);
+  padding: 20px;
   text-align: center;
 }
 
 .footer-text {
   font-size: 14px;
-  color: #666;
-  margin-bottom: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .footer-links {
@@ -195,7 +190,7 @@ h1 {
 }
 
 .footer-links a {
-  color: #5b21b6;
+  color: #ffffff;
   font-weight: 500;
   font-size: 14px;
 }
